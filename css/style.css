@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 767.98px) { 
+    html {
+        font-size: 85%;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    html {
+        font-size: 70%;
+    }
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.form-col, .topic-col {
+    min-width: 16em;
+}
+.last-post-col, .created-col, .author-col {
+    min-width: 12em;
+}
+
+.post-col {
+    min-width: 20em;
+}
